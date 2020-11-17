@@ -3,21 +3,8 @@
   "description": "A collection of Earth science datasets maintained by NASA, including climate change projections and satellite images of the Earth's surface.",
   "logo": "_images/dataset.png",
   "has_supporting_content": false,
-  "stack_id": "nasa-nex-dataset",
-  "type": "dataset-s3",
-  "categories": [
-    "Geo Data"
-  ],
-  "platform": "Kubernetes",
+  "de_catalog_id": "nasa-nex-dataset",
   "cover": "cover.md",
-  "commands": [],
-  "display": [
-    {
-      "name": "Developer Dashboard",
-      "url": "##DNS.host##/codeserver",
-      "enabled": true
-    }
-  ],
   "buckets": [    
     "nasanex:/NEX-DCP30",
     "nasanex:/NEX-GDDP",
@@ -30,14 +17,13 @@
       "2 minutes"
     ],
     "Type": [
-      "Dataset",
-      "S3"
+      "Dataset"
     ],
     "Tag": [ "S3" ],
-    "categories": [
+    "Categories": [
       "Geo Data",
       "Environment"
-    ]
-  },
-  "isDocumentSaved": true
+    ],
+	"Catalog Id": ["nasa-nex-dataset"]
+  }
 }
