@@ -1,7 +1,7 @@
 {
   "name": "NASA NEX Dataset",
   "description": "A collection of Earth science datasets maintained by NASA, including climate change projections and satellite images of the Earth's surface.",
-  "logo": "_images/dataset.png",
+  "logo": "_images/dataset-1.png",
   "has_supporting_content": false,
   "de_catalog_id": "nasa-nex-dataset",
   "cover": "cover.md",
